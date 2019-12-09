@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Rich Lemon</string>
+
+    <string name="hello_blank_fragment">Lemonade Stand</string>
+    <string name="beat_high_score_unset">Try to set a new high score!</string>
+    <string name="beat_high_score">Try to beat the old high score of $%1.02f points!</string>
+    <string name="play">Play</string>
+    <string name="go_shopping">Go Shopping!</string>
+    <string name="big_dollar_sign">$</string>
+    <string name="make_more_money">Time to make some money. Go buy supplies for lemonade!</string>
+    <string name="grocery_store_title">The Grocery Store</string>
+    <string name="buy_groceries">Buy Groceries</string>
+    <string name="product_name_lemons">Lemons</string>
+    <string name="product_name_sugar">Sugar</string>
+    <string name="product_name_ice">Ice</string>
+    <string name="product_details_lemons">%s per each lemondb</string>
+    <string name="product_details_qty_on_hand">%d on hand</string>
+    <string name="product_details_sugar">%s per cup</string>
+    <string name="product_details_ice">%s per pound</string>
+    <string name="product_add_to_cart">+</string>
+    <string name="product_remove_from_cart">-</string>
+    <string name="get_cooking">Get Cookin’</string>
+    <string name="time_to_sell_lemonade">You have %s remaining. After mixing up all your ingredients according to your family’s secret recipe, it’s finally time to sell some Lemonade. Let’s hope the weather cooperates.</string>
+    <string name="what_to_charge">What do you want to charge per glass of lemonade? Enter the price below in cents.</string>
+    <string name="sell_button">Start Selling</string>
+    <string name="price_placeholder">Lemonade Price per cup in cents</string>
+    <plurals name="glasses_of_lemonade">
+        <item quantity="one">%d glass of lemonade</item>
+        <item quantity="other">%d glasses of lemonade</item>
+    </plurals>
+    <string name="out_of_money_title">Out Of Money</string>
+    <string name="out_of_money_you_lose">Sorry, but you have lost the game. You can play again, though!</string>
+    <string name="play_again_button">Play Again</string>
+    <string name="done_selling_title">%s Earned</string>
+    <string name="done_selling_details">Now you have %1$s. You had %2$d left over. Maybe Tomorrow we’ll make the $100 we need!</string>
+    <string name="done_selling_you_won">Congratulations! You made over %s &#8212; that’s enough to win the game!!</string>
+    <string name="done_selling_rest_up_button">Rest Up For Tomorrow</string>
+    <string name="done_selling_play_again">Play Again</string>
+    <string name="action_rules">Rules</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_survey">SurveyActivity</string>
+    <string name="large_text">
+		"Thanks for playing Lemonade Stand.\n\n"
+
+		"Duo enim genera quae erant, fecit tria.\n"
+		"\n"
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. Animi enim quoque dolores percipiet omnibus partibus maiores quam corporis. Ita relinquet duas, de quibus etiam atque etiam consideret.\n"
+		"Tu autem negas fortem esse quemquam posse, qui dolorem malum putet. Duo Reges: constructio interrete. Quam quidem certationem homo et acutus et diligens, Chrysippus, non contemnit totumque discrimen summi boni in earum comparatione positum putat.\n"
+		"Tum ille: Tu autem cum ipse tantum librorum habeas, quos hic tandem requiris? Quod vestri quidem vel optime disputant, nihil opus esse eum, qui philosophus futurus sit, scire litteras. Hoc enim identidem dicitis, non intellegere nos quam dicatis voluptatem. Idque testamento cavebit is, qui nobis quasi oraculum ediderit nihil post mortem ad nos pertinere? Ea, quae dialectici nunc tradunt et docent, nonne ab illis instituta sunt aut inventa sunt?\n"
+		"\n"
+		"Quia nec honesto quic quam honestius nec turpi turpius.\n"
+		"Cur id non ita fit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Ista ipsa, quae tu breviter: regem, dictatorem, divitem solum esse sapientem, a te quidem apte ac rotunde; Sed finge non solum callidum eum, qui aliquid improbe faciat, verum etiam praepotentem, ut M.\n"
+		"Primum non saepe, deinde quae est ista relaxatio, cum et praeteriti doloris memoria recens est et futuri atque inpendentis torquet timor? Esse enim quam vellet iniquus iustus poterat inpune. Tum ille: Tu autem cum ipse tantum librorum habeas, quos hic tandem requiris? Summum ením bonum exposuit vacuitatem doloris;\n"
+		"\n"
+		"Primum in nostrane potestate est, quid meminerimus? Nam cum Academicis incerta luctatio est, qui nihil affirmant et quasi desperata cognitione certi id sequi volunt, quodcumque veri simile videatur. Quod eo liquidius faciet, si perspexerit rerum inter eas verborumne sit controversia. Est autem etiam actio quaedam corporis, quae motus et status naturae congruentis tenet; -, sed ut hoc iudicaremus, non esse in iis partem maximam positam beate aut secus vivendi.\n"
+		"Et si in ipsa gubernatione neglegentia est navis eversa, maius est peccatum in auro quam in palea. Haec para/doca illi, nos admirabilia dicamus. Qui autem diffidet perpetuitati bonorum suorum, timeat necesse est, ne aliquando amissis illis sit miser.\n"
+		"Dicuntur ista, Cato, magnifice, inquam, sed videsne verborum gloriam tibi cum Pyrrhone et cum Aristone, qui omnia exaequant, esse communem? Vides igitur, si amicitiam sua caritate metiare, nihil esse praestantius, sin emolumento, summas familiaritates praediorum fructuosorum mercede superari. Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate.\n"
+		"\n"
+		"Negat enim summo bono afferre incrementum diem.\n"
+		"\n"
+		"Hic Speusippus, hic Xenocrates, hic eius auditor Polemo, cuius illa ipsa sessio fuit, quam videmus. Sed finge non solum callidum eum, qui aliquid improbe faciat, verum etiam praepotentem, ut M. Qua ex cognitione facilior facta est investigatio rerum occultissimarum.\n"
+		"Pungunt quasi aculeis interrogatiunculis angustis, quibus etiam qui assentiuntur nihil commutantur animo et idem abeunt, qui venerant. His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. In primo enim ortu inest teneritas ac mollitia quaedam, ut nec res videre optimas nec agere possint. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P.\n"
+		"Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. Praeclare enim Plato: Beatum, cui etiam in senectute contigerit, ut sapientiam verasque opiniones assequi possit. Quod idem cum vestri faciant, non satis magnam tribuunt inventoribus gratiam. Polemoni et iam ante Aristoteli ea prima visa sunt, quae paulo ante dixi.\n"
+		"\n"
+		"Quod cum ille dixisset et satis disputatum videretur, in oppidum ad Pomponium perreximus omnes. Atque ego: Scis me, inquam, istud idem sentire, Piso, sed a te opportune facta mentio est. Nemo est igitur, quin hanc affectionem animi probet atque laudet, qua non modo utilitas nulla quaeritur, sed contra utilitatem etiam conservatur fides.\n"
+		"Quae quidem res efficit, ne necesse sit isdem de rebus semper quasi dictata decantare neque a commentariolis suis discedere. Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Quamquam te quidem video minime esse deterritum.\n"
+		"\n"
+
+	</string>
+
+    <string name="facebook_app_id">723905778112913</string>
+    <string name="fb_login_protocol_scheme">fb723905778112913</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="themes_action_menu_title">Themes</string>
+    <string name="push">This is time!</string>
+
+</resources>
