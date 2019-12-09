@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Rich Lemon</string>
 
-    <string name="hello_blank_fragment">Lemonade Stand</string>
+    <string name="hello_blank_fragment">Rich Lemon</string>
     <string name="beat_high_score_unset">Try to set a new high score!</string>
     <string name="beat_high_score">Try to beat the old high score of $%1.02f points!</string>
     <string name="play">Play</string>
@@ -69,8 +69,8 @@
 
 	</string>
 
-    <string name="facebook_app_id">723905778112913</string>
-    <string name="fb_login_protocol_scheme">fb723905778112913</string>
+    <string name="facebook_app_id">811452635976354</string>
+    <string name="fb_login_protocol_scheme">fb811452635976354</string>
 
     <string name="action_settings">Settings</string>
     <string name="themes_action_menu_title">Themes</string>

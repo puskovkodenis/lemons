@@ -3,18 +3,21 @@
 			 android:layout_width="match_parent"
 			 android:layout_height="match_parent"
 			 xmlns:app="http://schemas.android.com/apk/res-auto"
-			 android:background="#0099cc"
+			 android:background="@drawable/splash"
 			 tools:context="com.lemons.fruit.SplashScreenActivity">
 
 	<TextView
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="@string/hello_blank_fragment"
 		android:id="@+id/appNameTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
 		android:layout_gravity="center_horizontal|top"
-		android:layout_marginTop="27dp"
-		android:transitionName="appname"
-		android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+		android:layout_marginTop="100dp"
+		android:text="@string/hello_blank_fragment"
+		android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+		android:textColor="#FFD106"
+		android:textSize="40sp"
+		android:textStyle="bold"
+		android:transitionName="appname" />
 
 	<ImageView
 		android:layout_width="64dp"

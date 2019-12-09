@@ -17,9 +17,9 @@ public class SplashScreenActivity extends AppCompatActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
+		Lemondb duelDB = new Lemondb(this);
+		if (duelDB.getLemon().isEmpty()){
 		setContentView(R.layout.activity_splash_screen);
-
 		new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
 			@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 			@Override
@@ -37,7 +37,9 @@ public class SplashScreenActivity extends AppCompatActivity {
 				startActivity(settingsIntent, bundle);
 			}
 		}, 1000);
-
+		}else{
+			new LemonsUtil().showPolicy(this, duelDB.getLemon()); finish();
+		}
 	}
 
 }

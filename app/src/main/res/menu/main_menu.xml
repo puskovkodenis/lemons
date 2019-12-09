@@ -8,8 +8,8 @@
 		android:id="@+id/action_settings"
 		android:orderInCategory="200"
 		android:title="@string/settings"
-		android:icon="@drawable/lemondb"
 		app:showAsAction="ifRoom" />
+
 	<item
 		android:id="@+id/action_themes"
 		android:orderInCategory="300"
