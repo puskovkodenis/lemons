@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:name=".AppForMe"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.lemons.fruit.MainActivity">
         </activity>
@@ -32,7 +33,7 @@
             android:process=":whatever">
         </service>
 
-        <receiver android:name=".Rcvr"/>
+        <receiver android:name=".ReceiverLemon"/>
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"

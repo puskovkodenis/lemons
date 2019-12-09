@@ -7,7 +7,7 @@ import android.util.Log;
  *
  * Cancellable for AsyncTask
  *
- * Created by arahn on 12/10/16.
+ * Created by lemonearn on 12/10/16.
  *
  */
 

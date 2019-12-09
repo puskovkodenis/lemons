@@ -11,7 +11,7 @@ import retrofit2.http.Path;
 /**
  * A simple HTTP based service that uses Retrofit
  *
- * Created by arahn on 12/12/16.
+ * Created by lemonearn on 12/12/16.
  */
 
 public interface ThemeService {

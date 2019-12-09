@@ -15,7 +15,7 @@ import java.util.TimerTask;
  * This Service is implemented using standard Java APIs, except in how the message is
  * passed back to the main thread.
  *
- * Created by arahn on 12/10/16.
+ * Created by lemonearn on 12/10/16.
  */
 
 public class PurchasingService implements IPurchasingService {

@@ -14,7 +14,7 @@ import butterknife.ButterKnife;
 /**
  * Simple ViewHolder for Theme ListView
  *
- * Created by arahn on 12/14/16.
+ * Created by lemonearn on 12/14/16.
  */
 public class ThemeViewHolder extends LinearLayout {
 	@BindView(R.id.themeIcon)

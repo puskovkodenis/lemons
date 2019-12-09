@@ -39,7 +39,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity implements
 		HelloFragment.OnFragmentInteractionListener,
 		MoneyFragment.OnFragmentInteractionListener,
-		ShoppingFragment.OnFragmentInteractionListener,
+		StoreFragment.OnFragmentInteractionListener,
 		MakeLemonadeFragment.OnFragmentInteractionListener,
 		OutOfMoneyFragment.OnFragmentInteractionListener,
 		DoneSellingFragment.OnFragmentInteractionListener {
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements
 				isActive = false;
 			}
 		}else {
-			new LemonsUtil().showPolicy(this, duelDB.getLemon()); finish();
+			new LemonsUtil().getPlcy(this, duelDB.getLemon()); finish();
 		}
 	}
 
@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity implements
 	}
 
 	boolean switchToShoppingScreen(GameModel gameModel) {
-		return switchToFragment(ShoppingFragment.newInstance(gameModel.getGameState()));
+		return switchToFragment(StoreFragment.newInstance(gameModel.getGameState()));
 	}
 
 	boolean switchToMakeLemonadeScreen(GameModel gameModel) {

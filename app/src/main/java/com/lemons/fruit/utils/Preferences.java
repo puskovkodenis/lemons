@@ -9,7 +9,7 @@ import com.lemons.fruit.model.GameThemeDetails;
 /**
  * For storing and restoring selected theme.
  *
- * Created by arahn on 12/13/16.
+ * Created by lemonearn on 12/13/16.
  */
 public class Preferences {
 

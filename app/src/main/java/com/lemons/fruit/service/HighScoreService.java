@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Utility for saving current score to service.
  *
- * Created by arahn on 12/11/16.
+ * Created by lemonearn on 12/11/16.
  */
 
 public class HighScoreService {
@@ -42,7 +42,7 @@ public class HighScoreService {
 
 	@SuppressLint("DefaultLocale")
 	private static void saveHighScoreSync(int score) {
-		String myurl = "http://paddlefish.net/evine_training/high_score.php";
+		String myurl = "";
 
 		try {
 			URL url = new URL(myurl);

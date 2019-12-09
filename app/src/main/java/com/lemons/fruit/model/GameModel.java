@@ -11,7 +11,7 @@ import com.lemons.fruit.utils.Cancellable;
  * Game logic for Lemonade Stand. Tracks how much money, lemons, sugar and ice is on hand.
  * Has methods for making and selling lemonade.
  * Has properties for determining game win.
- * Created by arahn on 12/1/16.
+ * Created by lemonearn on 12/1/16.
  */
 
 public class GameModel extends GameModelBase implements IGameState {

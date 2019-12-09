@@ -17,14 +17,7 @@ import androidx.fragment.app.Fragment;
 import com.lemons.fruit.service.GameSetupService;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link HelloFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link HelloFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class HelloFragment extends Fragment {
 	private static final String LAST_HIGH_SCORE_PARAM = "lastHighScoreParam";
 
@@ -32,13 +25,6 @@ public class HelloFragment extends Fragment {
 
 	private OnFragmentInteractionListener mListener;
 
-	/**
-	 * Use this factory method to create a new instance of
-	 * this fragment using the provided parameters.
-	 *
-	 * @param lastHighScore the last high score, in cents
-	 * @return A new instance of fragment HelloFragment.
-	 */
 	public static HelloFragment newInstance(int lastHighScore) {
 		HelloFragment fragment = new HelloFragment();
 		Bundle args = new Bundle();
@@ -140,16 +126,7 @@ public class HelloFragment extends Fragment {
 		mListener = null;
 	}
 
-	/**
-	 * This interface must be implemented by activities that contain this
-	 * fragment to allow an interaction in this fragment to be communicated
-	 * to the activity and potentially other fragments contained in that
-	 * activity.
-	 * <p>
-	 * See the Android Training lesson <a href=
-	 * "http://developer.android.com/training/basics/fragments/communicating.html"
-	 * >Communicating with Other Fragments</a> for more information.
-	 */
+
 	public interface OnFragmentInteractionListener {
 		void startGame();
 	}

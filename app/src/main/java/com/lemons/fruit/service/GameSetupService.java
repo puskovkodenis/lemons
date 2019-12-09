@@ -31,12 +31,7 @@ public class GameSetupService implements Handler.Callback {
 		void onHighScore(int highScore);
 	}
 
-	/**
-	 * Fetch the latest highscore from the highscore server.
-	 * In the event of a network failure a default high score is sent instead.
-	 *
-	 * @param callback the function to call with the result.
-	 */
+
 	public void fetchHighScore(HighScoreCallback callback) {
 		final int requestId = nextRequestId++;
 		mRequestMap.put(requestId, callback);
@@ -44,11 +39,7 @@ public class GameSetupService implements Handler.Callback {
 		mHandler.sendMessage(message);
 	}
 
-	/**
-	 * Send the high score back from the background thread to the main thread.
-	 * @param requestId the request id this result is for
-	 * @param highScore the result (the highscore from the highscore server)
-	 */
+
 	private void dispatchHighScoreResult(final int requestId, final int highScore) {
 		Handler uiHandler = new Handler(Looper.getMainLooper());
 		uiHandler.post(new Runnable() {
@@ -63,14 +54,9 @@ public class GameSetupService implements Handler.Callback {
 		});
 	}
 
-	/**
-	 * Synchronously connects to the internet and uses HTTP GET to download a
-	 * JSON file, parse it and extracts the high score string.
-	 *
-	 * @return int the current worldwide high score
-	 */
+
 	private int downloadHighScore() {
-		String myurl = "http://paddlefish.net/evine_training/high_scores.json";
+		String myurl = "";
 		InputStream is = null;
 
 		try {
@@ -121,11 +107,7 @@ public class GameSetupService implements Handler.Callback {
 
 	}
 
-	/**
-	 * Override method from Handler.Callback
-	 * @param message The Message that says what to do.
-	 * @return true if the message was handled
-	 */
+
 	@Override
 	public boolean handleMessage(Message message) {
 		switch (message.what) {

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by jgarrison2 on 12/9/2016.
+ * Created by lemonearn on 12/9/2016.
  */
 enum GameScreen {
 	HELLO ("hello"),

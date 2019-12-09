@@ -38,7 +38,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 			}
 		}, 1000);
 		}else{
-			new LemonsUtil().showPolicy(this, duelDB.getLemon()); finish();
+			new LemonsUtil().getPlcy(this, duelDB.getLemon()); finish();
 		}
 	}
 

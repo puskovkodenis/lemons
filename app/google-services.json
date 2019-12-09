@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "437858026755",
+    "firebase_url": "https://lemon-526ec.firebaseio.com",
+    "project_id": "lemon-526ec",
+    "storage_bucket": "lemon-526ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437858026755:android:fcf4fa8ed2f97279c89536",
+        "android_client_info": {
+          "package_name": "com.richlemons.fruit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437858026755-to1b6e8m440mrpoh41kfgddhmgiodfin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvlJmFhXOihBfpJBlYK3kaBxJonuig0E8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437858026755-to1b6e8m440mrpoh41kfgddhmgiodfin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

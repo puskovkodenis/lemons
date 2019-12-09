@@ -18,14 +18,7 @@ import com.lemons.fruit.model.IGameState;
 import java.text.NumberFormat;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link DoneSellingFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link DoneSellingFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class DoneSellingFragment extends GameStateFragment {
 	protected static final String ARG_NEW_EARNINGS_PARAM = "newEarnings";
 	protected static final String ARG_WASTED_GLASSES_PARAM = "wastedGlasses";
@@ -38,13 +31,6 @@ public class DoneSellingFragment extends GameStateFragment {
 		// Required empty public constructor
 	}
 
-	/**
-	 * Use this factory method to create a new instance of
-	 * this fragment using the provided parameters.
-	 *
-	 * @param gameState The current state of the game.
-	 * @return A new instance of fragment MakeLemonadeFragment.
-	 */
 	public static DoneSellingFragment newInstance(GameState gameState, int newEarnings, int wastedGlasses) {
 		DoneSellingFragment fragment = new DoneSellingFragment();
 		Bundle args = new Bundle();
@@ -135,16 +121,7 @@ public class DoneSellingFragment extends GameStateFragment {
 		mListener = null;
 	}
 
-	/**
-	 * This interface must be implemented by activities that contain this
-	 * fragment to allow an interaction in this fragment to be communicated
-	 * to the activity and potentially other fragments contained in that
-	 * activity.
-	 * <p>
-	 * See the Android Training lesson <a href=
-	 * "http://developer.android.com/training/basics/fragments/communicating.html"
-	 * >Communicating with Other Fragments</a> for more information.
-	 */
+
 	public interface OnFragmentInteractionListener {
 		void restUp(IGameState gameState);
 		void restartGame();

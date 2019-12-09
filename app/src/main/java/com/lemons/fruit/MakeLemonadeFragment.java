@@ -21,14 +21,7 @@ import java.text.NumberFormat;
 import java.text.ParseException;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link MakeLemonadeFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link MakeLemonadeFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class MakeLemonadeFragment extends GameStateFragment {
 
 	private OnFragmentInteractionListener mListener;
@@ -38,13 +31,6 @@ public class MakeLemonadeFragment extends GameStateFragment {
 		// Required empty public constructor
 	}
 
-	/**
-	 * Use this factory method to create a new instance of
-	 * this fragment using the provided parameters.
-	 *
-	 * @param gameState The current state of the game.
-	 * @return A new instance of fragment MakeLemonadeFragment.
-	 */
 	public static MakeLemonadeFragment newInstance(GameState gameState) {
 		MakeLemonadeFragment fragment = new MakeLemonadeFragment();
 		fragment.setArguments(gameState);

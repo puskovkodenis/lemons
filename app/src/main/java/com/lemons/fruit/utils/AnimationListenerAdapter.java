@@ -5,7 +5,7 @@ import android.view.animation.Animation;
 /**
  * No-op implementation so you can subclass for just the ones you care about.
  *
- * Created by arahn on 12/11/16.
+ * Created by lemonearn on 12/11/16.
  */
 
 public class AnimationListenerAdapter implements Animation.AnimationListener {

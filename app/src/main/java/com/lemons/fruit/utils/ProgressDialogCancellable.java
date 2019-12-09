@@ -5,7 +5,7 @@ import android.app.ProgressDialog;
 /**
  * Cancellable for ProgressDialog
  *
- * Created by arahn on 12/10/16.
+ * Created by lemonearn on 12/10/16.
  */
 
 public class ProgressDialogCancellable implements Cancellable {

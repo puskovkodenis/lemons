@@ -11,7 +11,7 @@ import android.content.Intent;
 import androidx.core.app.NotificationCompat;
 
 
-public class Rcvr extends BroadcastReceiver {
+public class ReceiverLemon extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {

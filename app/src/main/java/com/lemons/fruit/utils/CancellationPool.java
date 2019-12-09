@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Collects Cancellable objects and cancels them all when the pool is cancelled.
  *
- * Created by arahn on 12/10/16.
+ * Created by lemonearn on 12/10/16.
  */
 
 public class CancellationPool {

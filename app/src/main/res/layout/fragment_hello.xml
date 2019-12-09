@@ -18,24 +18,26 @@
 		android:layout_centerHorizontal="true"/>
 
 	<TextView
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="@string/hello_blank_fragment"
 		android:id="@+id/appNameTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
 		android:layout_below="@+id/imageView"
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="27dp"
-		android:transitionName="appname"
-		android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+		android:text="@string/hello_blank_fragment"
+		android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+		android:textColor="#F7F3F3"
+		android:transitionName="appname" />
 
 	<TextView
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="@string/beat_high_score_unset"
 		android:id="@+id/beatHighScoreTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
 		android:layout_below="@+id/imageView"
 		android:layout_centerHorizontal="true"
-		android:layout_marginTop="80dp"/>
+		android:layout_marginTop="80dp"
+		android:text="@string/beat_high_score_unset"
+		android:textColor="#FEFCFC" />
 
 	<Button
 		android:text="@string/play"

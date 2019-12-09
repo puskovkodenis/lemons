@@ -3,7 +3,7 @@ package com.lemons.fruit.model;
 /**
  * Server model object for game theme with details.
  *
- * Created by arahn on 12/12/16.
+ * Created by lemonearn on 12/12/16.
  */
 
 public class GameThemeDetails extends GameTheme {

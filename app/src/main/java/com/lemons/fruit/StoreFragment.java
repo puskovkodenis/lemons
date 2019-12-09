@@ -11,8 +11,6 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import androidx.fragment.app.Fragment;
-
 import com.lemons.fruit.model.Accessor;
 import com.lemons.fruit.model.GameGroceries;
 import com.lemons.fruit.model.GameState;
@@ -21,34 +19,21 @@ import com.lemons.fruit.model.IGameState;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link ShoppingFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link ShoppingFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class ShoppingFragment extends GameStateFragment {
+
+public class StoreFragment extends GameStateFragment {
 	final static String PARAM_QTY_ORDERED = "PARAM_QTY_ORDERED";
 
 	private GameGroceries qtyOrdered = new GameGroceries(0, 0, 0);
 
 	private OnFragmentInteractionListener mListener;
 
-	public ShoppingFragment() {
+	public StoreFragment() {
 		// Required empty public constructor
 	}
 
-	/**
-	 * Use this factory method to create a new instance of
-	 * this fragment using the provided parameters.
-	 *
-	 * @param gameState The current state of the game.
-	 * @return A new instance of fragment MoneyFragment.
-	 */
-	public static ShoppingFragment newInstance(GameState gameState) {
-		ShoppingFragment fragment = new ShoppingFragment();
+
+	public static StoreFragment newInstance(GameState gameState) {
+		StoreFragment fragment = new StoreFragment();
 		fragment.setArguments(gameState);
 		return fragment;
 	}

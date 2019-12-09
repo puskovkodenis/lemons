@@ -5,7 +5,7 @@ import com.lemons.fruit.model.GameGroceries;
 /**
  * Abstraction of what it means to be a purchasing service
  *
- * Created by arahn on 12/13/16.
+ * Created by lemonearn on 12/13/16.
  */
 
 public interface IPurchasingService {

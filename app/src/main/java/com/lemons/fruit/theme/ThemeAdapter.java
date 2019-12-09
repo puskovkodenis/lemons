@@ -22,7 +22,7 @@ import static android.view.View.VISIBLE;
 /**
  * An adapter for driving a ListView of GameThemeDetails
  *
- * Created by arahn on 12/13/16.
+ * Created by lemonearn on 12/13/16.
  */
 public class ThemeAdapter extends ArrayAdapter<GameThemeDetails> {
 	public ThemeAdapter(Activity activity) {

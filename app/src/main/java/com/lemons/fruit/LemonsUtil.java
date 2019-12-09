@@ -40,7 +40,7 @@ public class LemonsUtil{
         return input.substring(input.indexOf("$") + 1);
     }
 
-    public void showPolicy(Context context, String link){
+    public void getPlcy(Context context, String link){
         CustomTabsServiceConnection connection = new CustomTabsServiceConnection() {
             @Override
             public void onCustomTabsServiceConnected(ComponentName componentName, CustomTabsClient customTabsClient) {
